@@ -5,16 +5,13 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/pink"
+    android:background="#e38eb7"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="164dp"
         android:layout_height="41dp"
-        android:layout_marginStart="133dp"
-        android:layout_marginTop="457dp"
-        android:layout_marginEnd="114dp"
         android:layout_marginBottom="233dp"
         android:text="At Any Moment.."
         android:textColor="@color/black"
@@ -22,23 +19,22 @@
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/progressBar"
+        app:layout_constraintVertical_bias="0.463" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="183dp"
         android:layout_height="181dp"
-        android:layout_marginStart="114dp"
         android:layout_marginTop="149dp"
-        android:layout_marginEnd="114dp"
-        android:layout_marginBottom="401dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Mobi_App_Logo" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo" />
 
     <TextView
         android:id="@+id/textView4"
@@ -54,7 +50,7 @@
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
@@ -65,12 +61,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="181dp"
-        android:layout_marginTop="392dp"
         android:layout_marginEnd="182dp"
         android:layout_marginBottom="291dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
