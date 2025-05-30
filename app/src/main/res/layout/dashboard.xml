@@ -55,10 +55,34 @@
         android:layout_height="119dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintHorizontal_bias="0.112"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.215" />
+        app:layout_constraintVertical_bias="0.189" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/happy"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="37dp"
+        android:layout_height="41dp"
+        app:srcCompat="@drawable/sad"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="39dp"
+        android:layout_height="29dp"
+        app:srcCompat="@drawable/neutral"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="182dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
